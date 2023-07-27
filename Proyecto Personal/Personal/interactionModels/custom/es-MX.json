@@ -1,0 +1,127 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "informacionIntent",
+          "samples": [
+            "cual enfermedad",
+            "que es",
+            "definicion",
+            "informacion"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "sintomasIntent",
+          "samples": [
+            "como lo detecto",
+            "sintomas",
+            "cuales son los sintomas "
+          ]
+        },
+        {
+          "slots": [],
+          "name": "prevencionIntent",
+          "samples": [
+            "recomendaciones",
+            "prevencion",
+            "como prevenirlo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "tratamientosIntent",
+          "samples": [
+            "cuales son los tratamientos",
+            "Tratamientos",
+            "Tratamiento"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MarcoLegalIntent",
+          "samples": [
+            "marco",
+            "legal",
+            "marco legal"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PruebaIntent",
+          "samples": [
+            "prueba"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "glucosa",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "glucosaIntent",
+          "samples": [
+            "mi glucosa {glucosa}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "glucosa",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "glucoIntent",
+          "samples": [
+            "glucosa {glucosa}",
+            "mi glucosa es de"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "nivel",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "basuraIntent",
+          "samples": [
+            "mi nivel es de {nivel}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "información diabetes"
+    }
+  }
+}

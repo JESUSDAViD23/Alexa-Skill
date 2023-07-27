@@ -1,0 +1,88 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "informacionIntent",
+          "samples": [
+            "Information",
+            "Definition",
+            "What is it",
+            "What disease"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "sintomasIntent",
+          "samples": [
+            "What are the symptoms",
+            "Symptoms",
+            "How do I detect it"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "prevencionIntent",
+          "samples": [
+            "How to prevent it",
+            "Prevention",
+            "Recommendations"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "tratamientosIntent",
+          "samples": [
+            "Treatment",
+            "Treatments",
+            "What are the treatments"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MarcoLegalIntent",
+          "samples": [
+            "legal frameworks"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "glucosa",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "glucosaIntent",
+          "samples": [
+            "my glucose is {glucosa}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "diabetes information"
+    }
+  }
+}
